@@ -22,7 +22,7 @@ module.exports = {
     },
     locale: "en",
     title: `Fancy Flower Cakes`,
-    description: `Photography portfolio of John Doe`,
+    description: `CAKES FOR ALL YOUR SPECIAL OCCASIONS`,
     author: `@johndoe`,
   },
   plugins: [
@@ -54,8 +54,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `John Doe`,
-        short_name: `johndoe`,
+        name: `Fancy Flower Cakes`,
+        short_name: `Fancy Flower Cakes`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#3182ce`,
