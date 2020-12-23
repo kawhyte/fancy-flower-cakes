@@ -22,9 +22,9 @@ function OurPromise() {
 		}
 	`);
 	return (
-		<div className='my-20'>
-			<p className='mb-20 mt-2 text-3xl text-center leading-8 font-extrabold tracking-tight text-mainBrown py-2 sm:text-4xl sm:leading-10'>
-				What We Offer 
+		<div className='mt-20 mb-10'>
+			<p className='mb-2 mt-2 text-3xl text-center leading-8 font-extrabold tracking-tight text-mainBrown py-2 sm:text-4xl sm:leading-10'>
+				Baked Goods for any Occasion
 			</p>
 
 			<div class='mt-10 flex justify-center container'>
@@ -79,19 +79,17 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								One more 
+								One more
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-500'>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
 							</dd>
 						</div>
 					</div>
-
-			
-
-					
 				</dl>
-			</div>
+            </div>
+            
+            
 		</div>
 	);
 }
