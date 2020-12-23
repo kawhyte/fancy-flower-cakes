@@ -13,11 +13,11 @@ const AboutPage = ({ data }) => (
       <div className="container py-12 lg:pb-16">
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 xl:w-3/5 pb-8 md:pb-0">
-            <h1 className="text-3xl leading-tight font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            <h1 className="text-3xl leading-tight font-extrabold tracking-tight text-mainBrown sm:text-4xl">
               About me
             </h1>
 
-            <h2 className="text-xl leading-tight font-semibold tracking-tight text-blue-600 sm:text-2xl">
+            <h2 className="text-xl leading-tight font-semibold tracking-tight text-accentColor sm:text-2xl">
               Interdum et malesuada fames ac ante.
             </h2>
             <div className="mt-4 leading-loose">
@@ -38,7 +38,7 @@ const AboutPage = ({ data }) => (
                 href="mailto:contact@johndoe.com"
                 className="border-b border-gray-500 hover:border-blue-600 hover:text-blue-600"
               >
-                contact@johndoe.com
+                contact@fancyflowercakes.com
               </a>
             </div>
           </div>

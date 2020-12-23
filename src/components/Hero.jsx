@@ -39,7 +39,7 @@ const Hero = () => (
                   }
                   type='button'
                   style={{ transition: "all .15s ease" }}>
-                  <i className='fas fa-arrow-alt-circle-down'></i>Get a Quote
+                  <i className='fas fa-arrow-alt-circle-down'></i>Contact Us
                 </button>
               </Link>
             </div>

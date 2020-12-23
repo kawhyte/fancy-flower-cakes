@@ -13,6 +13,7 @@ module.exports = {
     menu: [
       { name: "Home", to: "/" },
       { name: "Our Story", to: "/about" },
+      { name: "Contact Us", to: "/about" },
     ],
     links: {
       facebook: "https://www.facebook.com/",
