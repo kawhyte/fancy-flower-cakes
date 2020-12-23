@@ -24,7 +24,7 @@ function OurPromise() {
 	return (
 		<div className='mt-20 mb-10'>
 			<p className='mb-2 mt-2 text-3xl text-center leading-8 font-extrabold tracking-tight text-mainBrown py-2 sm:text-4xl sm:leading-10'>
-				Baked Goods for any Occasion
+				What We Offer
 			</p>
 
 			<div class='mt-10 flex justify-center container'>

@@ -13,7 +13,7 @@ module.exports = {
     menu: [
       { name: "Home", to: "/" },
       { name: "Our Story", to: "/about" },
-      { name: "Contact Us", to: "/about" },
+      { name: "Contact Us", to: "/ " },
     ],
     links: {
       facebook: "https://www.facebook.com/",
@@ -24,7 +24,7 @@ module.exports = {
     locale: "en",
     title: `Fancy Flower Cakes`,
     description: `CAKES FOR ALL YOUR SPECIAL OCCASIONS`,
-    author: `@johndoe`,
+    author: `@IamKennyWhyte`,
   },
   plugins: [
     `gatsby-plugin-postcss`,

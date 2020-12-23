@@ -29,7 +29,7 @@ const Hero = () => (
               </h2>
 
               <p className='mt-4 mb-4 text-base md:text-2xl text-gray-300 '>
-                Cakes For All Your  Special Occasions. 
+                Cakes for all your special occasions. 
               </p>
               <Link to='/prints'>
                 <button

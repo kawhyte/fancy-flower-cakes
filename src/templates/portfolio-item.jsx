@@ -39,7 +39,7 @@ export default props => {
               {gallery && gallery.length > 1 && <Carousel images={gallery} />}
             </div>
             <div className="w-full lg:w-1/3 lg:pl-8 xl:pl-12">
-              <h1 className="text-3xl leading-tight font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-1">
+              <h1 className="text-3xl leading-tight font-extrabold tracking-tight text-gray-900 sm:text-4xl mb-1 ">
                 {name}
               </h1>
               <h2 className="text-xl leading-tight font-semibold tracking-tight text-blue-600 sm:text-2xl">
@@ -55,16 +55,21 @@ export default props => {
                   <Button href={url}>More info</Button>
                 </div>
               )}
+              {<Button href={url}>More info</Button>}
             </div>
           </div>
         </div>
       </div>
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill="#f4eeed" class="cls-1" d="M0,39l60-5.3C120,28,240,18,360,39s240,75,360,74.7c120,.3,240-53.7,360-80C1200,7,1320,7,1380,7h60V295H0Z"/></svg>
+
       {related && (
-        <div className="bg-gray-100 py-12 lg:py-16">
-          <div className="container">
-            <h2 className="text-3xl sm:text-4xl leading-tight font-extrabold tracking-tight text-gray-900 mb-8">
-              You may also like
-            </h2>
+        <div className="bg-bgColor pt-6 pb-12 lg:pb-16 lg:pt-6 ">
+        
+        <div className="container">
+        <h2 className="text-3xl sm:text-4xl text-center leading-tight font-extrabold tracking-tight text-mainBrown mb-8">
+        More Cakes & Pastries
+        </h2>
+        <div className='mb-10 border-b-8 flex justify-start border-accentColor h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t '></div>
           </div>
           <Cards items={related} hideLastItemOnMobile={true} />
         </div>
