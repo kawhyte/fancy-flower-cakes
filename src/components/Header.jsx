@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import MenuMobile from "./MenuMobile"
 import { FaBars } from "react-icons/fa"
 
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
