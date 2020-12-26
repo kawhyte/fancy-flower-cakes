@@ -79,7 +79,7 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								One more
+								Wedding Cakes
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-500'>
 								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
