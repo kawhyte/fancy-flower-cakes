@@ -55,7 +55,8 @@ export default props => {
                   <Button href={url}>More info</Button>
                 </div>
               )}
-              {<Button href={url}>More info</Button>}
+              {<Button href={"mailto:fancyflowerrprs@gmail.com?subject=More Info"}>Contact Us</Button>}
+             
             </div>
           </div>
         </div>
