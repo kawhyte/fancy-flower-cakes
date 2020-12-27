@@ -41,10 +41,10 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								Custom Cakes
+								Custom Cakes sizes
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-500'>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								6", 8", 10", 7"x11", 9"x13" etc.
 							</dd>
 						</div>
 					</div>
@@ -60,10 +60,10 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								Pastries
+							Special dietary options available
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-500'>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Vegan, Gluten free, Dairy free & Paleo.
 							</dd>
 						</div>
 					</div>
@@ -79,10 +79,10 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								Wedding Cakes
+								Delivery Options
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-500'>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+								Made locally in Toronto. Only available for pick-up.
 							</dd>
 						</div>
 					</div>

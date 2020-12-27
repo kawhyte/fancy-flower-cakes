@@ -14,6 +14,7 @@ const Card = props => {
         </div>
         <div className="p-4 sm:p-5">
           <h1 className="sm:text-xl text-center text-gray-900 font-semibold">{name}</h1>
+          <p className="sm:text-base text-center text-gray-900 font-semibold">Starting at $400</p>
         </div>
       </Link>
     </div>
