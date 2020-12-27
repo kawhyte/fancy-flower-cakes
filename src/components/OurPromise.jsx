@@ -41,7 +41,7 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								Custom Cakes sizes
+								Custom cake sizes
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-500'>
 								6", 8", 10", 7"x11", 9"x13" etc.
@@ -79,7 +79,7 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								Delivery Options
+								Delivery options
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-500'>
 								Made locally in Toronto. Only available for pick-up.
