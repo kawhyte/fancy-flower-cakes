@@ -29,7 +29,7 @@ export default props => {
       <div className="bg-gray-0 py-12 lg:py-16">
         <div className="container">
           <div className="flex flex-wrap">
-            <div className="w-full lg:w-2/3 pb-8">
+            <div className="w-full lg:w-2/3 pb-8 max-w-2xl">
               {gallery && gallery.length === 1 && (
                 <Img
                   fluid={gallery[0].localFile.childImageSharp.fluid}

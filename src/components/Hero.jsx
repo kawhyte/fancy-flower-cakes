@@ -31,7 +31,7 @@ const Hero = () => (
               <p className='mt-4 mb-4 text-base md:text-2xl text-gray-300 '>
                 Cakes for all your special occasions. 
               </p>
-              <Link to='/prints'>
+              <a  href="mailto:fancyflowerrprs@gmail.com?subject=More Info">
                 <button
                   className={
                     "bg-yellow-500 text-black  active:bg-gray-100" +
@@ -41,7 +41,7 @@ const Hero = () => (
                   style={{ transition: "all .15s ease" }}>
                   <i className='fas fa-arrow-alt-circle-down'></i>Contact Us
                 </button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

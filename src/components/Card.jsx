@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Card = props => {
-  const { name, slug, summary, thumbnail } = props
+  const { name, slug, summary,price, thumbnail } = props
 
   return (
     <div className="bg-white h-full shadow-sm rounded-md overflow-hidden group">
@@ -13,8 +13,8 @@ const Card = props => {
           <Img fluid={thumbnail.localFile.childImageSharp.fluid} alt={name} />
         </div>
         <div className="p-4 sm:p-5">
-          <h1 className="sm:text-xl text-center text-gray-900 font-semibold">{name}</h1>
-          <p className="sm:text-base text-center text-gray-900 font-semibold">Starting at $400</p>
+          <h1 className="sm:text-xl text-center text-mainBrown font-semibold">{name}</h1>
+          <p className="sm:text-sm text-center  text-gray-900   font-semibold">Starting at ${price} CAD</p>
         </div>
       </Link>
     </div>
@@ -23,6 +23,7 @@ const Card = props => {
 
 Card.propTypes = {
   name: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
   slug: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
   thumbnail: PropTypes.shape({
@@ -47,5 +48,6 @@ export const query = graphql`
       }
     }
     summary
+    price
   }
 `
