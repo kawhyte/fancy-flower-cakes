@@ -24,7 +24,7 @@ const Hero = () => (
         <div className='items-center flex flex-wrap sm:px-24 '>
           <div className='w-full lg:w-9/12 px-4 ml-auto mr-auto text-center'>
             <div className='pr-12'>
-              <h2 className='text-4xl tracking-tight leading-10 font-extrabold text-yellow-500 sm:text-4xl sm:leading-none md:text-6xl'>
+              <h2 className=' bg-accentColor p-2 text-4xl tracking-tight leading-10 font-extrabold text-mainBrown sm:text-4xl sm:leading-none md:text-6xl lg:text-7xl'>
                Fancyflower Cakes
               </h2>
 
@@ -34,7 +34,7 @@ const Hero = () => (
               <a  href="mailto:fancyflowerrprs@gmail.com?subject=More Info">
                 <button
                   className={
-                    "bg-yellow-500 text-black  active:bg-gray-100" +
+                    "bg-accentColor text-black  active:bg-gray-100" +
                     " text-xs sm:text-sm font-bold uppercase px-4 py-4 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                   }
                   type='button'
