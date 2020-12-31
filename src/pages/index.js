@@ -36,8 +36,8 @@ const IndexPage = ({ data }) => {
 					Cakes & Pastries
 				</h3>
 				
-				<h2 className="text-xl leading-tight mb-10  text-center font-semibold tracking-tight text-accentColor sm:text-2xl">
-				Available for pick-up or delivery within a 10km radius. Contact us to discuss.
+				<h2 className="text-xl leading-tight mb-10  text-center font-semibold tracking-tight text-gray-700 sm:text-2xl">
+				Available for pick-up or delivery within a 10 km radius. Contact us to discuss.
 				</h2>
 	{/*<div className=' border-b-8 flex mb-10  border-accentColor h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t '></div>*/}
 				{data.portfolio && data.portfolio.nodes.length > 0 ? (
