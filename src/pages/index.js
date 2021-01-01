@@ -6,7 +6,7 @@ import OurPromise from "../components/OurPromise";
 import Layout from "../layouts/Layout";
 
 import SiteMetadata from "../components/SiteMetadata";
-import Services from "../components/Services";
+
 import CakeType from "../components/CakeType";
 
 const IndexPage = ({ data }) => {
@@ -34,10 +34,15 @@ const IndexPage = ({ data }) => {
 			</svg>
 
 			<div className='bg-bgColor   pb-1 lg:pb-2'>
-				<div className='flex justify-center'>
-					<p className='mb-2 bg-accentColor p-2 my-8  text-2xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
-						Cakes & Pastries
-					</p>
+		
+
+				<div className="flex justify-center">
+				<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
+				Cakes & Pastries
+							<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>
+						</p>
+			
+			
 				</div>
 
 				{/*<div className=' border-b-8 flex mb-10  border-accentColor h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t '></div>*/}
@@ -48,9 +53,11 @@ const IndexPage = ({ data }) => {
 				)}
 			</div>
 
+			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill='#F8F5F0' class="cls-1" d="M1440,99l-60,5.3c-60,5.7-180,15.7-300-5.3S840,24,720,24.3C600,24,480,78,360,104.3,240,131,120,131,60,131H0V-157H1440Z"/></svg>
+
 			<CakeType />
 
-			<Services />
+		
 		</Layout>
 	);
 };

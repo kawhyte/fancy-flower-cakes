@@ -30,8 +30,9 @@ function OurPromise() {
 	<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>*/}
 			
 	<div className="flex justify-center">
-	<p className='mb-2 bg-accentColor p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
+	<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
 				What We Offer
+				<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>
 			</p>
 
 
@@ -82,7 +83,7 @@ function OurPromise() {
 						<div class='flex-shrink-0'>
 							<div class='flex items-center justify-center h-20 w-20 rounded-md text-white'>
 								<Img
-									fluid={data.muffin.childImageSharp.fluid}
+									fluid={data.cake.childImageSharp.fluid}
 									alt='muffin'
 									className='mb-10 container left-0 right-0 w-full h-full object-cover z-10'
 								/>
