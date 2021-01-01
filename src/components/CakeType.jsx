@@ -1,7 +1,7 @@
 import React from "react";
-import man_drawing from "../images/cake_slice.jpg";
-import project from "../images/cake_slice.jpg";
-import drafting from "../images/cake_slice.jpg";
+import jam from "../images/jam.webp";
+import slice from "../images/slice.webp";
+import nuts from "../images/nuts.webp";
 function CakeType() {
 	const list_style =
 		"text-lg md:text-xl font-medium text-gray-700 leading-tight";
@@ -32,7 +32,7 @@ function CakeType() {
 								</ul>
 							</div>
 							<div className='w-full sm:w-5/12 sm:p-6'>
-								<img className='w-full mx-auto' src={project} alt='Contacts' />
+								<img className='w-full mx-auto' src={slice} alt='Contacts' />
 							</div>
 						</div>
 						<div className='flex flex-wrap sm:flex-row-reverse'>
@@ -58,7 +58,7 @@ function CakeType() {
 								</ul>
 							</div>
 							<div className='w-full sm:w-5/12 sm:p-6'>
-								<img className='w-full mx-auto' src={project} alt='Contacts' />
+								<img className='w-full mx-auto' src={jam} alt='Contacts' />
 							</div>
 						</div>
 						<div className='flex flex-wrap bg-bgColor'>
@@ -81,7 +81,7 @@ function CakeType() {
 								</ul>
 							</div>
 							<div className='w-full sm:w-5/12 sm:p-6'>
-								<img className='w-full mx-auto' src={project} alt='Contacts' />
+								<img className='w-full mx-auto' src={nuts} alt='Contacts' />
 							</div>
 						</div>
 					</div>

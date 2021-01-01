@@ -24,7 +24,7 @@ const AboutPage = ({ data }) => (
 							teenager. She taught me to make basic roses for a cake she was
 							doing and I was hooked. I continued baking basic recipes over the
 							years just for family and friends who encouraged me to take this
-							further. l I decided to take their advice and completed cake
+							further. I decided to take their advice and completed cake
 							decorating courses and before you know it, ‘fancyflowercakes’ was
 							born.
 							<br />
@@ -38,9 +38,9 @@ const AboutPage = ({ data }) => (
 							</a>
 						</div>
 					</div>
-					<div className='w-full md:w-1/2 xl:w-2/5 md:pl-12'>
+					<div className='w-full md:w-1/2 xl:w-2/5 md:pl-12 mt-20'>
 						<Img
-							fluid={data.author.childImageSharp.fluid}
+							fluid={data.ears.childImageSharp.fluid}
 							alt='John Doe'
 							className='rounded-md shadow-md'
 						/>
@@ -56,7 +56,7 @@ export default AboutPage;
 
 export const query = graphql`
 	query {
-		author: file(relativePath: { eq: "author.jpg" }) {
+		ears: file(relativePath: { eq: "ears.jpg" }) {
 			childImageSharp {
 				fluid(maxWidth: 600, maxHeight: 480, quality: 85) {
 					...GatsbyImageSharpFluid_withWebp
