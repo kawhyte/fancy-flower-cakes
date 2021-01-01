@@ -32,7 +32,7 @@ function OurPromise() {
 	<div className="flex justify-center">
 	<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
 				What We Offer
-				<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>
+				<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 sm:w-72 opacity-50 my-0 py-0 rounded-t '></div>
 			</p>
 
 

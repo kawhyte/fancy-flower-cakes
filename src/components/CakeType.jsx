@@ -4,20 +4,20 @@ import project from "../images/cake_slice.jpg";
 import drafting from "../images/cake_slice.jpg";
 function CakeType() {
 	const list_style =
-		"text-lg md:text-2xl font-medium text-gray-700 leading-tight";
+		"text-lg md:text-xl font-medium text-gray-700 leading-tight";
 	const unorderdlist = "text-gray-300  mb-8 lg:text-lg list-disc ml-6";
 	const list_position = "p-8 absolute left-0 z-20";
 
 	return (
-		<div>
-			<div className='p-4 m-8 container  '>
-				<section className=' text-gray-900 flex flex-row  '>
+		<div className=" grid  ">
+			<div className='p-4 m-8 container '>
+				<section className=' text-gray-900 '>
 					<div className='container max-w-5xl mx-auto  md:mt-0'>
-						<div className='flex flex-wrap bg-bgColor'>
-							<div className='w-5/6 sm:w-1/2 sm:p-6'>
-								<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
+						<div className='flex flex-wrap  bg-bgColor'>
+							<div className='w-5/6 sm:w-1/2 sm:p-6 '>
+								<p className='mb-2 p-2 sm:my-0   text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-3xl sm:leading-10'>
 									Cake Types
-									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>
+									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient w-40 sm:w-64 opacity-50 my-0 py-0 rounded-t '></div>
 								</p>
 
 								<ul className={unorderdlist}>
@@ -31,15 +31,15 @@ function CakeType() {
 									</li>
 								</ul>
 							</div>
-							<div className='w-full sm:w-1/2 sm:p-6'>
+							<div className='w-full sm:w-5/12 sm:p-6'>
 								<img className='w-full mx-auto' src={project} alt='Contacts' />
 							</div>
 						</div>
-						<div className='flex flex-wrap'>
+						<div className='flex flex-wrap sm:flex-row-reverse'>
 							<div className='w-5/6 sm:w-1/2 sm:p-6'>
-								<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
+								<p className='mb-2 p-2 my-9 sm:my-0  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-3xl sm:leading-10'>
 									Fillings
-									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>
+									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient w-40 sm:w-64 opacity-50 my-0 py-0 rounded-t '></div>
 								</p>
 
 								<ul className={unorderdlist}>
@@ -57,15 +57,15 @@ function CakeType() {
 									<li className={list_style}>Fruit Jams or jellies </li>
 								</ul>
 							</div>
-							<div className='w-full sm:w-1/2 sm:p-6'>
+							<div className='w-full sm:w-5/12 sm:p-6'>
 								<img className='w-full mx-auto' src={project} alt='Contacts' />
 							</div>
 						</div>
-						<div className='flex flex-wrap'>
-							<div className='w-5/6 sm:w-1/2 sm:p-6'>
-								<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
+						<div className='flex flex-wrap bg-bgColor'>
+							<div className='w-5/6 sm:w-1/2 sm:p-6 '>
+								<p className='mb-2 p-2 my-9 sm:my-0 text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-3xl sm:leading-10'>
 									Toppings
-									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>
+									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient w-40 sm:w-64 opacity-50 my-0 py-0 rounded-t '></div>
 								</p>
 
 								<ul className={unorderdlist}>
@@ -80,7 +80,7 @@ function CakeType() {
 									<li className={list_style}>Cookies</li>
 								</ul>
 							</div>
-							<div className='w-full sm:w-1/2 sm:p-6'>
+							<div className='w-full sm:w-5/12 sm:p-6'>
 								<img className='w-full mx-auto' src={project} alt='Contacts' />
 							</div>
 						</div>
