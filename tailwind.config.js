@@ -6,7 +6,11 @@ module.exports = {
       padding: "1.25rem",
     },
     fontFamily: {
-      sans: ["Inter var", "system-ui", "sans-serif"],
+      sans: ["sans-serif", "Inter var", "system-ui" ],
+      serif: ["sans-serif", "Inter var", "system-ui" ],
+      'nunito': ['nunito', 'sans-serif'],
+
+     
     },
 
     colors: {

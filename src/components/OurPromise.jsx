@@ -2,6 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
+
 function OurPromise() {
 	const data = useStaticQuery(graphql`
 		query {
@@ -22,8 +23,13 @@ function OurPromise() {
 		}
 	`);
 	return (
-		<div className='mt-20 mb-10 '>
-			<p className='mb-2 mt-2 text-3xl text-center leading-8 font-extrabold tracking-tight text-mainBrown py-2 sm:text-4xl sm:leading-10'>
+		<div className='mt-10 mb-10  sm:p-10 m-4 '>
+		{/*<h2 className='text-center font-serif text-xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-6xl lg:text-7xl'>
+               Cakes for all occasions
+              </h2>
+	<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>*/}
+			
+			  <p className='mb-2  text-2xl text-center leading-8 font-extrabold tracking-tight text-mainBrown sm:text-4xl sm:leading-10'>
 				What We Offer
 			</p>
 
@@ -43,7 +49,7 @@ function OurPromise() {
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
 								Custom cake sizes
 							</dt>
-							<dd class='mt-2 text-center text-base text-gray-500'>
+							<dd class='mt-2 text-center text-base text-gray-600'>
 							Send us a photo and we will create what you need.
 							</dd>
 						</div>
@@ -62,7 +68,7 @@ function OurPromise() {
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
 							Cupcakes
 							</dt>
-							<dd class='mt-2 text-center text-base text-gray-500'>
+							<dd class='mt-2 text-center text-base text-gray-600'>
 							With buttercream frosting with or without custom cake toppers 
 							</dd>
 						</div>
@@ -81,7 +87,7 @@ function OurPromise() {
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
 							Special occasion cakes
 							</dt>
-							<dd class='mt-2 text-center text-base text-gray-500'>
+							<dd class='mt-2 text-center text-base text-gray-600'>
 							Covered with buttercream, ganache or fondant.
 							</dd>
 						</div>
@@ -107,7 +113,7 @@ function OurPromise() {
 	</div>*/}
 				</dl>
             </div>
-            
+	
             
 		</div>
 	);

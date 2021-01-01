@@ -7,9 +7,9 @@ const Hero = () => (
   <div>
   <main>
     <div
-      className='relative pt-16 pb-32 flex content-center items-center justify-center'
+      className='relative pt-16  pb-20 flex content-center items-center justify-center'
       style={{
-        minHeight: "75vh",
+        minHeight: "45vh",
       }}>
       <div
         className='absolute top-0 w-full h-full bg-center bg-cover'
@@ -24,18 +24,21 @@ const Hero = () => (
         <div className='items-center flex flex-wrap sm:px-24 '>
           <div className='w-full lg:w-9/12 px-4 ml-auto mr-auto text-center'>
             <div className='pr-12'>
-              <h2 className=' bg-accentColor p-2 text-4xl tracking-tight leading-10 font-extrabold text-mainBrown sm:text-4xl sm:leading-none md:text-6xl lg:text-7xl'>
-               Fancyflower Cakes
+              <h2 className='font-serif  p-4 text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-6xl lg:text-7xl'>
+              Cakes for all your special occasions. 
               </h2>
 
-              <p className='mt-4 mb-4 text-base md:text-2xl text-gray-300 '>
-                Cakes for all your special occasions. 
+              <div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>
+
+
+              <p className='mt-4 mb-4 text-lg md:text-2xl text-gray-200 '>
+              Available for pick-up or delivery within a 10 km radius. Contact us to discuss.
               </p>
               <a  href="mailto:fancyflowerrprs@gmail.com?subject=More Info">
                 <button
                   className={
                     "bg-accentColor text-black  active:bg-gray-100" +
-                    " text-xs sm:text-sm font-bold uppercase px-4 py-4 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+                    " text-xs sm:text-sm font-bold uppercase px-4 py-3 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                   }
                   type='button'
                   style={{ transition: "all .15s ease" }}>
@@ -48,7 +51,6 @@ const Hero = () => (
       </div>
  
     </div>
-
 
   </main>
 </div>
