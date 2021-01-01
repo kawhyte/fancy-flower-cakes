@@ -7,6 +7,7 @@ import Layout from "../layouts/Layout";
 
 import SiteMetadata from "../components/SiteMetadata";
 import Services from "../components/Services";
+import CakeType from "../components/CakeType";
 
 const IndexPage = ({ data }) => {
 	return (
@@ -16,7 +17,6 @@ const IndexPage = ({ data }) => {
 			<Hero />
 
 			<OurPromise />
-			
 
 			<svg
 				id='Layer_1'
@@ -33,12 +33,13 @@ const IndexPage = ({ data }) => {
 				/>
 			</svg>
 
-			<div className='bg-bgColor  pb-1 lg:pb-2'>
-				<h3 className='mt-0 pt-10 text-3xl text-center leading-8 font-extrabold tracking-tight text-mainBrown py-2 sm:text-4xl sm:leading-10'>
-					Cakes & Pastries
-				</h3>
+			<div className='bg-bgColor   pb-1 lg:pb-2'>
+				<div className='flex justify-center'>
+					<p className='mb-2 bg-accentColor p-2 my-8  text-2xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
+						Cakes & Pastries
+					</p>
+				</div>
 
-			
 				{/*<div className=' border-b-8 flex mb-10  border-accentColor h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t '></div>*/}
 				{data.portfolio && data.portfolio.nodes.length > 0 ? (
 					<Cards items={data.portfolio.nodes} />
@@ -47,10 +48,9 @@ const IndexPage = ({ data }) => {
 				)}
 			</div>
 
-			
-	
+			<CakeType />
 
-<Services />
+			<Services />
 		</Layout>
 	);
 };

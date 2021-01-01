@@ -29,9 +29,14 @@ function OurPromise() {
               </h2>
 	<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>*/}
 			
-			  <p className='mb-2  text-2xl text-center leading-8 font-extrabold tracking-tight text-mainBrown sm:text-4xl sm:leading-10'>
+	<div className="flex justify-center">
+	<p className='mb-2 bg-accentColor p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
 				What We Offer
 			</p>
+
+
+	</div>
+			  
 
 			<div class='mt-10 flex justify-center container'>
 				<dl class='space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10'>
@@ -47,7 +52,7 @@ function OurPromise() {
 						</div>
 						<div class=''>
 							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
-								Custom cake sizes
+							Custom Cakes
 							</dt>
 							<dd class='mt-2 text-center text-base text-gray-600'>
 							Send us a photo and we will create what you need.

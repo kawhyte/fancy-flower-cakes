@@ -37,7 +37,7 @@ const Hero = () => (
               <a  href="mailto:fancyflowerrprs@gmail.com?subject=More Info">
                 <button
                   className={
-                    "bg-accentColor text-black  active:bg-gray-100" +
+                    "bg-gray-500 text-black  active:bg-gray-100" +
                     " text-xs sm:text-sm font-bold uppercase px-4 py-3 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
                   }
                   type='button'
