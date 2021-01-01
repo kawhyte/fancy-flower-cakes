@@ -26,9 +26,9 @@ export default props => {
         description={summary}
         image={thumbnail.localFile.publicURL}
       />
-      <div className="bg-gray-0 py-12 lg:py-16">
+      <div className="bg-gray-0 py-12 lg:py-16 ">
         <div className="container">
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap mt-14">
             <div className="w-full lg:w-2/3 pb-8 max-w-2xl">
               {gallery && gallery.length === 1 && (
                 <Img
@@ -61,7 +61,7 @@ export default props => {
           </div>
         </div>
       </div>
-      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill="#f4eeed" class="cls-1" d="M0,39l60-5.3C120,28,240,18,360,39s240,75,360,74.7c120,.3,240-53.7,360-80C1200,7,1320,7,1380,7h60V295H0Z"/></svg>
+      <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill="#F8F5F0" class="cls-1" d="M0,39l60-5.3C120,28,240,18,360,39s240,75,360,74.7c120,.3,240-53.7,360-80C1200,7,1320,7,1380,7h60V295H0Z"/></svg>
 
       {related && (
         <div className="bg-bgColor pt-6 pb-12 lg:pb-16 lg:pt-6 ">
