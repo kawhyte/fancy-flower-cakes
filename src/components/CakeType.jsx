@@ -8,6 +8,7 @@ function CakeType() {
 	const unorderdlist = "text-gray-300  mb-8 lg:text-lg list-disc ml-6";
 	const list_position = "p-8 absolute left-0 z-20";
 
+	
 	return (
 		<div className=" grid  ">
 			<div className='p-4 m-8 container '>
