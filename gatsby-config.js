@@ -12,8 +12,7 @@ module.exports = {
   siteMetadata: {
     menu: [
       { name: "Home", to: "/" },
-      { name: "Our Story", to: "/about" },
-      { name: "Contact Us", to: "/ " },
+      { name: "Our Story", to: "/about" }
     ],
     links: {
       facebook: "https://www.facebook.com/",
