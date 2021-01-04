@@ -24,7 +24,7 @@ const Hero = () => (
         <div className='items-center flex flex-wrap  sm:px-24 '>
           <div className='w-full lg:w-9/12 px-4 ml-auto mr-auto text-center'>
             <div className='pr-12'>
-              <h2 className='font-serif  p-4 text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl  sm:leading-none md:text-6xl lg:text-7xl'>
+              <h2 className='font-serif  p-4 md:pt-12 text-4xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl  sm:leading-none md:text-6xl lg:text-7xl'>
               Cakes for all your special occasions. 
               </h2>
 
