@@ -7,14 +7,14 @@ const Card = props => {
   const { name, slug, summary,price, thumbnail } = props
 
   return (
-    <div className="bg-white m-2 h-full shadow-sm rounded-md overflow-hidden group  ">
+    <div className="h-full m-2 overflow-hidden bg-white shadow-sm rounded-md group ">
       <Link to={`/${slug}`}>
         <div className="group-hover:opacity-75 transition duration-150 ease-in-out ">
           <Img fluid={thumbnail.localFile.childImageSharp.fluid} alt={name} />
         </div>
         <div className="p-4 sm:p-5">
-          <h1 className=" text-lg sm:text-xl text-center text-mainBrown font-semibold ">{name}</h1>
-          {/*<p className="sm:text-sm text-center  text-gray-900   font-semibold">Starting at ${price} CAD</p>*/}
+          <h1 className="text-lg font-semibold text-center  sm:text-xl text-mainBrown">{name}</h1>
+          {/*<p className="font-semibold text-center text-gray-900 sm:text-sm ">Starting at ${price} CAD</p>*/}
         </div>
       </Link>
     </div>

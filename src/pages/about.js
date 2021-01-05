@@ -9,11 +9,11 @@ const AboutPage = ({ data }) => (
 	<Layout>
 		<SiteMetadata title='About' description='Sample description' />
 
-		<div className='bg-gray-100 max-h-screen '>
+		<div className='max-h-screen bg-gray-100 '>
 			<div className='container py-12 lg:pb-16'>
 				<div className='flex flex-wrap'>
-					<div className='w-full md:w-1/2 xl:w-3/5 pb-8 md:pb-0'>
-						<h1 className='text-3xl mt-20 leading-tight font-extrabold tracking-tight text-mainBrown sm:text-4xl'>
+					<div className='w-full pb-8 md:w-1/2 xl:w-3/5 md:pb-0'>
+						<h1 className='mt-20 text-3xl font-extrabold leading-tight tracking-tight text-mainBrown sm:text-4xl'>
 							Our Story
 						</h1>
 						<div className='mt-4 leading-loose'>
@@ -38,11 +38,11 @@ const AboutPage = ({ data }) => (
 							</a>
 						</div>
 					</div>
-					<div className='w-full md:w-1/2 xl:w-2/5 md:pl-12 mt-20'>
+					<div className='w-full mt-20 md:w-1/2 xl:w-2/5 md:pl-12'>
 						<Img
 							fluid={data.ears.childImageSharp.fluid}
 							alt='John Doe'
-							className='rounded-md shadow-md'
+							className='shadow-md rounded-md'
 						/>
 					</div>
 				</div>

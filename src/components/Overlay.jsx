@@ -66,7 +66,7 @@ function Overlay({ children, isOpen, setIsOpen }) {
   return (
     <motion.div
       animate={isOpen ? "open" : "closed"}
-      className="fixed z-50 block bg-gray-900 text-white"
+      className="fixed z-50 block text-white bg-gray-900"
       initial="closed"
       variants={backgroundVariants}
     >
@@ -76,10 +76,10 @@ function Overlay({ children, isOpen, setIsOpen }) {
             initial="closed"
             animate={isOpen ? "open" : "closed"}
             variants={closeButtonVariants}
-            className="text-white focus:outline-none select-none highlight-none"
+            className="text-white select-none focus:outline-none highlight-none"
             onClick={() => setIsOpen(false)}
           >
-            <FaTimes className="h-8 w-auto fill-current" />
+            <FaTimes className="w-auto h-8 fill-current" />
           </motion.button>
         </div>
         <motion.div

@@ -10,15 +10,15 @@ function CakeType() {
 
 	
 	return (
-		<div className=" grid  ">
-			<div className='p-4 m-8 container '>
-				<section className=' text-gray-900 '>
+		<div className=" grid">
+			<div className='container p-4 m-8 '>
+				<section className='text-gray-900 '>
 					<div className='container max-w-5xl mx-auto  md:mt-0'>
 						<div className='flex flex-wrap  bg-bgColor'>
 							<div className='w-5/6 sm:w-1/2 sm:p-6 '>
-								<p className='mb-2 p-2 sm:my-0   text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-3xl sm:leading-10'>
+								<p className='p-2 mb-2 text-xl font-extrabold tracking-tight text-center text-black sm:my-0  leading-8 sm:text-3xl sm:leading-10'>
 									Cake Types
-									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient w-40 sm:w-64 opacity-50 my-0 py-0 rounded-t '></div>
+									<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient sm:w-64 '></div>
 								</p>
 
 								<ul className={unorderdlist}>
@@ -38,9 +38,9 @@ function CakeType() {
 						</div>
 						<div className='flex flex-wrap sm:flex-row-reverse'>
 							<div className='w-5/6 sm:w-1/2 sm:p-6'>
-								<p className='mb-2 p-2 my-9 sm:my-0  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-3xl sm:leading-10'>
+								<p className='p-2 mb-2 text-xl font-extrabold tracking-tight text-center text-black my-9 sm:my-0  leading-8 sm:text-3xl sm:leading-10'>
 									Fillings
-									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient w-40 sm:w-64 opacity-50 my-0 py-0 rounded-t '></div>
+									<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient sm:w-64 '></div>
 								</p>
 
 								<ul className={unorderdlist}>
@@ -64,9 +64,9 @@ function CakeType() {
 						</div>
 						<div className='flex flex-wrap bg-bgColor'>
 							<div className='w-5/6 sm:w-1/2 sm:p-6 '>
-								<p className='mb-2 p-2 my-9 sm:my-0 text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-3xl sm:leading-10'>
+								<p className='p-2 mb-2 text-xl font-extrabold tracking-tight text-center text-black my-9 sm:my-0 leading-8 sm:text-3xl sm:leading-10'>
 									Toppings
-									<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient w-40 sm:w-64 opacity-50 my-0 py-0 rounded-t '></div>
+									<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient sm:w-64 '></div>
 								</p>
 
 								<ul className={unorderdlist}>

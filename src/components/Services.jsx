@@ -9,12 +9,12 @@ function Services() {
 	const unorderdlist = "text-gray-300  mb-8 lg:text-lg list-disc ml-6";
 	const list_position = "p-8 absolute left-0 z-20";
 	return (
-		<div className='grid grid-cols-1 lg:grid-cols-3 gap-4 mx-8   md:mx-48'>
+		<div className='mx-8 grid grid-cols-1 lg:grid-cols-3 gap-4  md:mx-48'>
 			<div
-				class='mb-4  md:mb-0 w-full max-w-screen-md mx-auto relative'
+				class='relative w-full mx-auto mb-4  md:mb-0 max-w-screen-md'
 				style={{ height: "24em" }}>
 				<div
-					class='absolute left-0 bottom-0 w-full h-96 z-10'
+					class='absolute bottom-0 left-0 z-10 w-full h-96'
 					style={{
 						backgroundImage:
 							"linear-gradient(180deg,transparent,rgba(0,0,0,.7)",
@@ -22,11 +22,11 @@ function Services() {
 
 				<img
 					src={drafting}
-					class='absolute left-0 top-0 w-full h-full rounded z-0 object-cover'
+					class='absolute top-0 left-0 z-0 object-cover w-full h-full rounded'
 				/>
 				<div className={list_position}>
 					<p
-						class='px-4 py-1 bg-accentColor inline-flex items-center justify-center mb-2'>
+						class='inline-flex items-center justify-center px-4 py-1 mb-2 bg-accentColor'>
 						Cake Types
 					</p>
 
@@ -43,10 +43,10 @@ function Services() {
 				</div>
 			</div>
 			<div
-				class='mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative'
+				class='relative w-full mx-auto mb-4 md:mb-0 max-w-screen-md'
 				style={{ height: "24em" }}>
 				<div
-					class='absolute left-0 bottom-0 w-full h-96 z-10'
+					class='absolute bottom-0 left-0 z-10 w-full h-96'
 					style={{
 						backgroundImage:
 							"linear-gradient(180deg,transparent,rgba(0,0,0,.7)",
@@ -54,12 +54,12 @@ function Services() {
 
 				<img
 					src={BG}
-					class='absolute left-0 top-0 w-full h-full rounded z-0 object-cover'
+					class='absolute top-0 left-0 z-0 object-cover w-full h-full rounded'
 				/>
 				<div className={list_position}>
 					<p
 						href='#'
-						class='px-4 py-1 bg-accentColor inline-flex items-center justify-center mb-2'>
+						class='inline-flex items-center justify-center px-4 py-1 mb-2 bg-accentColor'>
 						Fillings
 					</p>
 					<ul className={unorderdlist}>
@@ -77,10 +77,10 @@ function Services() {
 				</div>
 			</div>
 			<div
-				class='mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative'
+				class='relative w-full mx-auto mb-4 md:mb-0 max-w-screen-md'
 				style={{ height: "24em" }}>
 				<div
-					class='absolute left-0 bottom-0 w-full h-96 z-10'
+					class='absolute bottom-0 left-0 z-10 w-full h-96'
 					style={{
 						backgroundImage:
 							"linear-gradient(180deg,transparent,rgba(0,0,0,.7)",
@@ -88,12 +88,12 @@ function Services() {
 
 				<img
 					src={BG}
-					class='absolute left-0 top-0 w-full h-full rounded z-0 object-cover'
+					class='absolute top-0 left-0 z-0 object-cover w-full h-full rounded'
 				/>
 				<div className={list_position}>
 					<p
 						href='#'
-						class='px-4 py-1 bg-accentColor inline-flex items-center justify-center mb-2'>
+						class='inline-flex items-center justify-center px-4 py-1 mb-2 bg-accentColor'>
 						Toppings
 					</p>
 

@@ -23,96 +23,96 @@ function OurPromise() {
 		}
 	`);
 	return (
-		<div className='mt-10 mb-10  sm:p-10 m-4 '>
-		{/*<h2 className='text-center font-serif text-xl tracking-tight leading-10 font-extrabold text-white sm:text-4xl sm:leading-none md:text-6xl lg:text-7xl'>
+		<div className='m-4 mt-10 mb-10  sm:p-10'>
+		{/*<h2 className='font-serif text-xl font-extrabold tracking-tight text-center text-white leading-10 sm:text-4xl sm:leading-none md:text-6xl lg:text-7xl'>
                Cakes for all occasions
               </h2>
-	<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 opacity-50 my-0 py-0 rounded-t '></div>*/}
+	<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient '></div>*/}
 			
 	<div className="flex justify-center">
-	<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl sm:leading-10'>
+	<p className='p-2 mb-2 text-xl font-extrabold tracking-tight text-center text-black  leading-8 sm:text-4xl sm:leading-10'>
 				What We Offer
-				<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient   w-40 sm:w-72 opacity-50 my-0 py-0 rounded-t '></div>
+				<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient  sm:w-72'></div>
 			</p>
 
 
 	</div>
 			  
 
-			<div class='mt-10 flex justify-center container'>
+			<div class='container flex justify-center mt-10'>
 				<dl class='space-y-10 md:space-y-0 md:grid md:grid-cols-3 md:gap-x-8 md:gap-y-10'>
 					<div class='flex flex-col items-center'>
 						<div class='flex-shrink-0'>
-							<div class='flex items-center justify-center h-20 w-20 rounded-md text-white'>
+							<div class='flex items-center justify-center w-20 h-20 text-white rounded-md'>
 								<Img
 									fluid={data.cake.childImageSharp.fluid}
 									alt='cake'
-									className='mb-10 container left-0 right-0 w-full h-full object-cover z-10'
+									className='container left-0 right-0 z-10 object-cover w-full h-full mb-10'
 								/>
 							</div>
 						</div>
 						<div class=''>
-							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
+							<dt class='text-lg font-medium text-center text-gray-900 leading-6'>
 							Custom Cakes
 							</dt>
-							<dd class='mt-2 text-center text-base text-gray-600'>
+							<dd class='mt-2 text-base text-center text-gray-600'>
 							Send us a photo and we will create what you need.
 							</dd>
 						</div>
 					</div>
 					<div class='flex flex-col items-center'>
 						<div class='flex-shrink-0'>
-							<div class='flex items-center justify-center h-20 w-20 rounded-md text-white'>
+							<div class='flex items-center justify-center w-20 h-20 text-white rounded-md'>
 								<Img
 									fluid={data.muffin.childImageSharp.fluid}
 									alt='muffin'
-									className='mb-10 container left-0 right-0 w-full h-full object-cover z-10'
+									className='container left-0 right-0 z-10 object-cover w-full h-full mb-10'
 								/>
 							</div>
 						</div>
 						<div class=''>
-							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
+							<dt class='text-lg font-medium text-center text-gray-900 leading-6'>
 							Cupcakes
 							</dt>
-							<dd class='mt-2 text-center text-base text-gray-600'>
+							<dd class='mt-2 text-base text-center text-gray-600'>
 							With buttercream frosting with or without custom cake toppers 
 							</dd>
 						</div>
 					</div>
 					<div class='flex flex-col items-center'>
 						<div class='flex-shrink-0'>
-							<div class='flex items-center justify-center h-20 w-20 rounded-md text-white'>
+							<div class='flex items-center justify-center w-20 h-20 text-white rounded-md'>
 								<Img
 									fluid={data.cake.childImageSharp.fluid}
 									alt='muffin'
-									className='mb-10 container left-0 right-0 w-full h-full object-cover z-10'
+									className='container left-0 right-0 z-10 object-cover w-full h-full mb-10'
 								/>
 							</div>
 						</div>
 						<div class=''>
-							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
+							<dt class='text-lg font-medium text-center text-gray-900 leading-6'>
 							Special occasion cakes
 							</dt>
-							<dd class='mt-2 text-center text-base text-gray-600'>
+							<dd class='mt-2 text-base text-center text-gray-600'>
 							Covered with buttercream, ganache or fondant.
 							</dd>
 						</div>
 					</div>
 					{/*<div class='flex flex-col items-center'>
 						<div class='flex-shrink-0'>
-							<div class='flex items-center justify-center h-20 w-20 rounded-md text-white'>
+							<div class='flex items-center justify-center w-20 h-20 text-white rounded-md'>
 								<Img
 									fluid={data.cake.childImageSharp.fluid}
 									alt='cake'
-									className='mb-10 container left-0 right-0 w-full h-full object-cover z-10'
+									className='container left-0 right-0 z-10 object-cover w-full h-full mb-10'
 								/>
 							</div>
 						</div>
 						<div class=''>
-							<dt class='text-lg text-center leading-6 font-medium text-gray-900'>
+							<dt class='text-lg font-medium text-center text-gray-900 leading-6'>
 								Delivery options
 							</dt>
-							<dd class='mt-2 text-center text-base text-gray-500'>
+							<dd class='mt-2 text-base text-center text-gray-500'>
 								Made locally in Toronto. Only available for pick-up.
 							</dd>
 						</div>

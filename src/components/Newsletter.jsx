@@ -29,13 +29,13 @@ const Newsletter = () => {
 
   return (
     <div className="container py-12 lg:py-16">
-      <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 leading-tight tracking-tight">
+      <h2 className="text-3xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-4xl">
         Sign up for my newsletter
       </h2>
       <form className="mt-8 sm:flex" onSubmit={handleSubmit}>
         <input
           aria-label="Email address"
-          className="appearance-none w-full sm:max-w-xs px-5 py-3 border border-gray-400 leading-snug rounded-md text-gray-900 bg-white placeholder-gray-600 focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out"
+          className="w-full px-5 py-3 leading-snug text-gray-900 placeholder-gray-600 bg-white border border-gray-400 appearance-none sm:max-w-xs rounded-md focus:outline-none focus:shadow-outline focus:border-blue-300 transition duration-150 ease-in-out"
           onChange={event => setEmail(event.target.value)}
           placeholder="Enter your email"
           required

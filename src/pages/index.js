@@ -33,19 +33,19 @@ const IndexPage = ({ data }) => {
 				/>
 			</svg>
 
-			<div className='bg-bgColor   pb-1 lg:pb-2'>
+			<div className='pb-1 bg-bgColor  lg:pb-2'>
 		
 
 				<div className="flex justify-center">
-				<p className='mb-2 p-2  text-xl text-center leading-8 font-extrabold tracking-tight text-black   sm:text-4xl sm:leading-10'>
+				<p className='p-2 mb-2 text-xl font-extrabold tracking-tight text-center text-black  leading-8 sm:text-4xl sm:leading-10'>
 				Cakes & Pastries
-							<div className='border-b-4 flex justify-start border-accentColor mx-auto gradient sm:w-72   w-40 opacity-50 my-0 py-0 rounded-t '></div>
+							<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient sm:w-72 '></div>
 						</p>
 			
 			
 				</div>
 
-				{/*<div className=' border-b-8 flex mb-10  border-accentColor h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t '></div>*/}
+				{/*<div className='flex w-64 h-1 py-0 mx-auto my-0 mb-10 border-b-8 rounded-t opacity-50  border-accentColor gradient'></div>*/}
 				{data.portfolio && data.portfolio.nodes.length > 0 ? (
 					<Cards items={data.portfolio.nodes} />
 				) : (
