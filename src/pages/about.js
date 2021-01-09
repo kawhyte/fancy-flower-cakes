@@ -41,8 +41,8 @@ const AboutPage = ({ data }) => (
 					<div className='w-full mt-20 md:w-1/2 xl:w-2/5 md:pl-12'>
 						<Img
 							fluid={data.ears.childImageSharp.fluid}
-							alt='John Doe'
-							className='shadow-md rounded-md'
+							alt=' R Smith'
+							className='rounded-md shadow-md'
 						/>
 					</div>
 				</div>

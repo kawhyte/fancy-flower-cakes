@@ -12,7 +12,7 @@ import CakeType from "../components/CakeType";
 const IndexPage = ({ data }) => {
 	return (
 		<Layout>
-			<SiteMetadata title='Home' description='Portfolio of John Doe' />
+			<SiteMetadata title='Home' description='Fancyflower Cakes' />
 
 			<Hero />
 
@@ -33,11 +33,11 @@ const IndexPage = ({ data }) => {
 				/>
 			</svg>
 
-			<div className='pb-1 bg-bgColor  lg:pb-2'>
+			<div className='pb-1 bg-bgColor lg:pb-2'>
 		
 
 				<div className="flex justify-center">
-				<p className='p-2 mb-2 text-xl font-extrabold tracking-tight text-center text-black  leading-8 sm:text-4xl sm:leading-10'>
+				<p className='p-2 mb-2 text-xl font-extrabold leading-8 tracking-tight text-center text-black sm:text-4xl sm:leading-10'>
 				Cakes & Pastries
 							<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient sm:w-72 '></div>
 						</p>
@@ -45,7 +45,7 @@ const IndexPage = ({ data }) => {
 			
 				</div>
 
-				{/*<div className='flex w-64 h-1 py-0 mx-auto my-0 mb-10 border-b-8 rounded-t opacity-50  border-accentColor gradient'></div>*/}
+				{/*<div className='flex w-64 h-1 py-0 mx-auto my-0 mb-10 border-b-8 rounded-t opacity-50 border-accentColor gradient'></div>*/}
 				{data.portfolio && data.portfolio.nodes.length > 0 ? (
 					<Cards items={data.portfolio.nodes} />
 				) : (
