@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => {
 				/>
 			</svg>
 
-			<div className='pb-1 bg-bgColor lg:pb-2'>
+			<div className='pb-1 bg-bgColor lg:pb-20'>
 		
 
 				<div className="flex justify-center">
@@ -47,17 +47,17 @@ const IndexPage = ({ data }) => {
 			
 				</div>
 
-				<PhotoGallery />
+				<PhotoGallery className='flex w-64 h-1 py-0 mx-auto my-0 mb-10 border-b-8 rounded-t opacity-50 border-accentColor gradient' />
 
-				{/*<div className='flex w-64 h-1 py-0 mx-auto my-0 mb-10 border-b-8 rounded-t opacity-50 border-accentColor gradient'></div>*/}
+				{/*<div className='flex w-64 h-1 py-0 mx-auto my-0 mb-10 border-b-8 rounded-t opacity-50 border-accentColor gradient'></div>
 				{data.portfolio && data.portfolio.nodes.length > 0 ? (
 					<Cards items={data.portfolio.nodes} />
 				) : (
 					<div className='container'>No projects found.</div>
-				)}
+				)}*/}
 			</div>
 
-			<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill='#F8F5F0' class="cls-1" d="M1440,99l-60,5.3c-60,5.7-180,15.7-300-5.3S840,24,720,24.3C600,24,480,78,360,104.3,240,131,120,131,60,131H0V-157H1440Z"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill='#F8F5F0' class="cls-1" d="M1440,99l-60,5.3c-60,5.7-180,15.7-300-5.3S840,24,720,24.3C600,24,480,78,360,104.3,240,131,120,131,60,131H0V-157H1440Z"/></svg>
 
 			<CakeType />
 

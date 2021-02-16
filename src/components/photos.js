@@ -1,11 +1,6 @@
 export const photos = [
     {
-      src: "https://res.cloudinary.com/babyhulk/image/upload/e_sharpen:100,r_30/v1613502560/fancy-flower/20200630_093746.webp",
-      width: 4,
-      height: 3
-    },
-    {
-      src: "https://res.cloudinary.com/babyhulk/image/upload/v1613513215/fancy-flower/20180720_072548.webp",
+      src: "https://res.cloudinary.com/babyhulk/image/upload/v1613514782/fancy-flower/IMG-20210215-WA0001.webp",
       width: 4,
       height: 3
     },
@@ -13,6 +8,16 @@ export const photos = [
       src: "https://res.cloudinary.com/babyhulk/image/upload/e_auto_brightness,r_30/v1613502695/fancy-flower/20190518_094453.webp",
       width: 1,
       height: 1
+    },
+    {
+      src: "https://res.cloudinary.com/babyhulk/image/upload/v1613513215/fancy-flower/20180720_072548.webp",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://res.cloudinary.com/babyhulk/image/upload/e_auto_brightness/v1613515080/fancy-flower/IMG-20210215-WA0003.webp",
+      width: 4,
+      height: 3
     },
     {
       src: "https://res.cloudinary.com/babyhulk/image/upload/v1613512559/fancy-flower/20201114_124045.webp",
@@ -36,6 +41,11 @@ export const photos = [
     },
     {
       src: "https://res.cloudinary.com/babyhulk/image/upload/v1613508546/fancy-flower/20190502_113717.webp",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://res.cloudinary.com/babyhulk/image/upload/e_sharpen:100,r_30/v1613502560/fancy-flower/20200630_093746.webp",
       width: 4,
       height: 3
     },
@@ -100,7 +110,7 @@ export const photos = [
       height: 1
     },
     {
-      src: "https://res.cloudinary.com/babyhulk/image/upload/e_sharpen:100/v1613513856/fancy-flower/IMG-20191214-WA0020.webp",
+      src: "https://res.cloudinary.com/babyhulk/image/upload/v1613514472/fancy-flower/IMG-20191214-WA0020.webp",
       width: 4,
       height: 3
     },
