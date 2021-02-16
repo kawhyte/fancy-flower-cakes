@@ -8,6 +8,7 @@ import Layout from "../layouts/Layout";
 import SiteMetadata from "../components/SiteMetadata";
 
 import CakeType from "../components/CakeType";
+import PhotoGallery from "../components/PhotoGallery";
 
 const IndexPage = ({ data }) => {
 	return (
@@ -17,6 +18,7 @@ const IndexPage = ({ data }) => {
 			<Hero />
 
 			<OurPromise />
+		
 
 			<svg
 				id='Layer_1'
@@ -38,12 +40,14 @@ const IndexPage = ({ data }) => {
 
 				<div className="flex justify-center">
 				<p className='p-2 mb-2 text-xl font-extrabold leading-8 tracking-tight text-center text-black sm:text-4xl sm:leading-10'>
-				Cakes & Pastries
+				Cakes & Pastries Photo Gallery
 							<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient sm:w-72 '></div>
 						</p>
 			
 			
 				</div>
+
+				<PhotoGallery />
 
 				{/*<div className='flex w-64 h-1 py-0 mx-auto my-0 mb-10 border-b-8 rounded-t opacity-50 border-accentColor gradient'></div>*/}
 				{data.portfolio && data.portfolio.nodes.length > 0 ? (
