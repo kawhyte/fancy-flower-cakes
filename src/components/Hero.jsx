@@ -1,6 +1,6 @@
 import React from "react";
 
-import BG from "../images/mainCake.webp";
+import BG from "../images/mainCake2.webp";
 
 const Hero = () => (
 	<div>
@@ -21,6 +21,12 @@ const Hero = () => (
 						id='blackOverlay'
 						className='absolute w-full h-full bg-black opacity-25'></span>
 				</div>
+
+
+
+
+
+				
 				<div className='container relative mx-auto'>
 					<div className='flex flex-wrap items-center sm:px-24 '>
 						<div className='w-full px-4 ml-auto mr-auto text-center lg:w-9/12'>
