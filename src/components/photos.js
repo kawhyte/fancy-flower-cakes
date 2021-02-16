@@ -91,8 +91,8 @@ export const photos = [
     },
     {
       src: "https://res.cloudinary.com/babyhulk/image/upload/e_sharpen:100/v1613512116/fancy-flower/20200620_100819.webp",
-      width: 3,
-      height: 4
+      width: 4,
+      height: 3
     },
     {
       src: "https://res.cloudinary.com/babyhulk/image/upload/e_sharpen:100/v1613512212/fancy-flower/20180316_160810.webp",

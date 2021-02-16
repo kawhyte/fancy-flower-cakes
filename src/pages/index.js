@@ -57,7 +57,7 @@ const IndexPage = ({ data }) => {
 				)}*/}
 			</div>
 
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill='#F8F5F0' class="cls-1" d="M1440,99l-60,5.3c-60,5.7-180,15.7-300-5.3S840,24,720,24.3C600,24,480,78,360,104.3,240,131,120,131,60,131H0V-157H1440Z"/></svg>
+			{/*<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 134"><defs><style></style></defs><path fill='#F8F5F0' class="cls-1" d="M1440,99l-60,5.3c-60,5.7-180,15.7-300-5.3S840,24,720,24.3C600,24,480,78,360,104.3,240,131,120,131,60,131H0V-157H1440Z"/></svg>*/}
 
 			<CakeType />
 
