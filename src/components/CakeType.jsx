@@ -6,7 +6,7 @@ function CakeType() {
 	const list_style =
 		"text-lg md:text-xl font-medium text-gray-700 leading-tight";
 	const unorderdlist = "text-gray-300  mb-8 lg:text-lg list-disc ml-6";
-	const list_position = "p-8 absolute left-0 z-20";
+
 
 	
 	return (

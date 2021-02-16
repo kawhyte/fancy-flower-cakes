@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Card = props => {
-  const { name, slug, summary,price, thumbnail } = props
+  const { name, slug, thumbnail } = props
 
   return (
     <div className="h-full m-2 overflow-hidden bg-white shadow-sm rounded-md group ">
