@@ -31,9 +31,9 @@ const AboutPage = ({ data }) => (
 							I'm happy to hear from you:
 							<br />
 							<a
-								href='mailto:contact@fancyflowercakes.com'
+								href='mailto:fancyflowerrprs@gmail.com'
 								className='border-b border-gray-500 hover:border-blue-600 hover:text-blue-600'>
-								contact@fancyflowercakes.com
+								Send us an email
 							</a>
 						</div>
 					</div>
