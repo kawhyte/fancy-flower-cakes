@@ -10,7 +10,7 @@ function CakeType() {
 
 	
 	return (
-		<div className=" grid">
+		<div className=" grid mt-32 sm:mt-10">
 			<div className='container p-4 m-8 '>
 				<section className='text-gray-900 '>
 					<div className='container max-w-5xl mx-auto  md:mt-0'>
