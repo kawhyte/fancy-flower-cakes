@@ -5,6 +5,11 @@ export const photos = [
       height: 3
     },
     {
+      src: "https://res.cloudinary.com/babyhulk/image/upload/e_auto_brightness,r_30,ar_1:1,c_fill,g_auto/v1618594656/fancy-flower/2021-04-16.webp",
+      width: 1,
+      height: 1
+    },
+    {
       src: "https://res.cloudinary.com/babyhulk/image/upload/e_auto_brightness,r_30/v1613502695/fancy-flower/20190518_094453.webp",
       width: 1,
       height: 1
