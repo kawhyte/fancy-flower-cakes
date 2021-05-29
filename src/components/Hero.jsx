@@ -41,7 +41,7 @@ const Hero = () => (
 									Available for pick-up or delivery within a 10 km radius.
 									Contact us to discuss.
 								</p>
-								<a href='mailto:fancyflowerrprs@gmail.com?subject=More Info'>
+								<a href='https://forms.gle/pRAKJqZhX6RQNZUKA' target="_blank" rel="noopener noreferrer" >
 									<button
 										className={
 											"bg-accentColor text-black  active:bg-gray-100" +
@@ -49,7 +49,7 @@ const Hero = () => (
 										}
 										type='button'
 										style={{ transition: "all .15s ease" }}>
-										<i className='fas fa-arrow-alt-circle-down'></i>Contact Us
+										<i className='fas fa-arrow-alt-circle-down'></i> Fiil out order form
 									</button>
 								</a>
 							</div>
