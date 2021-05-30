@@ -38,7 +38,7 @@ const Hero = () => (
 								<div className='flex justify-start w-40 py-0 mx-auto my-0 border-b-4 rounded-t opacity-50 border-accentColor gradient sm:w-96 '></div>
 
 								<p className='mt-4 mb-4 text-lg text-gray-100 md:text-2xl '>
-									Available for pick-up or delivery within a 10 km radius.
+									Available for pick-up.
 									Contact us to discuss.
 								</p>
 								<a href='https://forms.gle/pRAKJqZhX6RQNZUKA' target="_blank" rel="noopener noreferrer" >
